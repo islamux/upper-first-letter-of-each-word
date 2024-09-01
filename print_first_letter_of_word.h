@@ -4,19 +4,15 @@ using namespace std;
 #pragma once
 void PrintFirstLetterOfWord(string text){
 
-       
+    // print first letter 
+      cout << text[0]<< "\n"; 
      for (int i = 0; i <=text.length(); i++)
      {
-      if (text[i] == text[0])
-      {
-        cout <<text[i] << "\n"; 
-      }
-
-      if (text[i] == ' ')
-      {
-        cout << text[i+1]<<"\n";
-      }
+        if (text[i] == ' ')
+        {
+          cout << text[i+1]<<"\n";
+        }
       
-}
-cout << "\n"; 
+    }
+      cout << "\n"; 
 }
