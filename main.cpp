@@ -1,6 +1,6 @@
 #include <iostream>
 #include "read_string.h"
-#include "print_first_letter_of_word.h"
+#include "print_all_with_upper_first_letter_of_word.h"
 using namespace std;
 
 int main(){
@@ -9,7 +9,7 @@ int main(){
     string text= ReadString("Enter a text: \n");
     
     // Print Resutl 
-    PrintFirstLetterOfWord(text);
+    PrintAllWithUpperFirstLetterOfWord(text);
     
     return 0;
 }
